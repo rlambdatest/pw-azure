@@ -58,7 +58,7 @@ const caps_webkit = {
 };
 
 module.exports = {
-    connectOptions: {
+    connectOptions: {      
         chromium: {
           wsEndpoint: `wss://cdp.lambdatest.com/playwright?capabilities=${encodeURIComponent(JSON.stringify(caps_chromium))}`
         },
