@@ -1,4 +1,5 @@
 // Needs to be higher than the default Playwright timeout
+
 jest.setTimeout(40 * 1000)
 
 describe("Bing Search", () => {

@@ -4,7 +4,8 @@
   "description": "Sample project to run playwright-jest tests on LambdaTest platform",
   "main": "sample.spec.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "type": "module"
   },
   "author": "Mukesh Rana",
   "license": "ISC",

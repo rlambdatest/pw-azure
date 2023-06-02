@@ -8,14 +8,14 @@ const caps_chromium = {
     'platform': 'Windows 10',
     'build': 'Playwright-jest sample Build',
     'name': 'Playwright-jest test on Chromium',
-    'user': process.env.LT_USERNAME,
-    'accessKey': process.env.LT_ACCESS_KEY,
+    'user': "rakeshslambdatest",
+    'accessKey':"MHu1nfiZVVPSteHsFVqybmvsxePoFJq0j8htKDk7uHcRwPgLGg",
     'network': true,
     'video': true,
     'console': true,
     'tunnel': false, // Add tunnel configuration if testing locally hosted webpage
-    'tunnelName': '', // Optional
-    'geoLocation': '', // country code can be fetched from https://www.lambdatest.com/capabilities-generator/
+    // 'tunnelName': '', // Optional
+    // 'geoLocation': '', // country code can be fetched from https://www.lambdatest.com/capabilities-generator/
     'playwrightClientVersion': playwrightClientVersion
   }
 };
@@ -27,14 +27,15 @@ const caps_firefox = {
     'platform': 'Windows 10',
     'build': 'Playwright-jest sample Build',
     'name': 'Playwright-jest test on Firefox',
-    'user': process.env.LT_USERNAME,
-    'accessKey': process.env.LT_ACCESS_KEY,
+    'user': "rakeshslambdatest",
+    'accessKey': "MHu1nfiZVVPSteHsFVqybmvsxePoFJq0j8htKDk7uHcRwPgLGg",
     'network': true,
     'video': true,
     'console': true,
     'tunnel': false, // Add tunnel configuration if testing locally hosted webpage
-    'tunnelName': '', // Optional
-    'geoLocation': '', // country code can be fetched from https://www.lambdatest.com/capabilities-generator/
+ 
+    // 'tunnelName': '', // Optional
+    // 'geoLocation': '', // country code can be fetched from https://www.lambdatest.com/capabilities-generator/
   }
 };
 
@@ -45,14 +46,14 @@ const caps_webkit = {
     'platform': 'Windows 10',
     'build': 'Playwright-jest sample Build',
     'name': 'Playwright-jest test on Webkit',
-    'user': process.env.LT_USERNAME,
-    'accessKey': process.env.LT_ACCESS_KEY,
+    'user': "rakeshslambdatest",
+    'accessKey': "MHu1nfiZVVPSteHsFVqybmvsxePoFJq0j8htKDk7uHcRwPgLGg",
     'network': true,
     'video': true,
     'console': true,
     'tunnel': false, // Add tunnel configuration if testing locally hosted webpage
-    'tunnelName': '', // Optional
-    'geoLocation': '', // country code can be fetched from https://www.lambdatest.com/capabilities-generator/
+    // 'tunnelName': '', // Optional
+    // 'geoLocation': '', // country code can be fetched from https://www.lambdatest.com/capabilities-generator/
   }
 };
 
